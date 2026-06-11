@@ -1,0 +1,692 @@
+{
+  "ATTCH": {
+    "_class_details": [
+      "This class is for tractor attachments including power control units and accessories necessary to provide a functional attachment.",
+      "This class also includes misc. truck and welding attachments.",
+      "Dozer blades are included in the standard configuration for both crawler and heavy, rubber tire tractors."
+    ],
+    "RIPR": {
+      "_make_details": [
+        "Rippers are listed from R1 to R8 based on tractor equipment group."
+      ],
+      "R1*": [
+        "Tractor Models in Equipment Group No.1:",
+        "Case 300 through 800 Series",
+        "Cat D-2 through D-4",
+        "Deere 400 and 450",
+        "Dresser TD-7, TD-8 and TD-9",
+        "Fiat-Allis FD-5 through FD-7",
+        "Komatsu D21E through D37P",
+        "Liebherr PR711 and PR721"
+      ],
+      "R2*": [
+        "Tractor Models in Equipment Group No.2:",
+        "Case 1150",
+        "Cat D-5",
+        "Deere 750",
+        "Dresser TD-12",
+        "Fiat-Allis FD9 and 10",
+        "Komatsu D58P",
+        "Liebherr PR731"
+      ],
+      "R3*": [
+        "Tractor Models in Equipment Group No.3:",
+        "Case 1450 and 1550",
+        "Cat D-6",
+        "Deere 850",
+        "Dresser TD-15",
+        "Komatsu D63PE through D68P",
+        "Liebherr PR741"
+      ],
+      "R4*": [
+        "Tractor Models in Equipment Group No.4:",
+        "Cat D-7 and 814",
+        "Dresser TD-20",
+        "Fiat-Allis 14 and FD14",
+        "Komatsu D83P",
+        "Terex 82-30"
+      ],
+      "R5*": [
+        "Tractor Models in Equipment Group No.5:",
+        "Cat D-8 and 824",
+        "Dresser TD-25",
+        "Fiat-Allis FD20",
+        "Komatsu D135A",
+        "Terex 82-40",
+        "Michigan 280",
+        "Raygo CHD 17 and CD-500"
+      ],
+      "R6*": [
+        "Tractor Models in Equipment Group No.6:",
+        "Cat D-9 and 834, Fiat-Allis FD30, Raygo CHD 24 and CD 800"
+      ],
+      "R7": [
+        "Tractor Models in Equipment Group No.7:",
+        "Cat D-10",
+        "Dresser TD-40",
+        "Fiat-Allis FD40",
+        "Komatsu 375",
+        "Michigan 380",
+        "Raygo CDH 30"
+      ],
+      "R8*": [
+        "Tractor Models in Equipment Group No.8:",
+        "Cat D-11",
+        "Fiat-Allis FD50",
+        "Komatsu 475"
+      ]
+    },
+    "WNCH": {
+      "_make_details": [
+        "Winches for logging or towing are listed from S1 to S5 based on tractor equipment group."
+      ],
+      "S1*": [
+        "Tractor Models in Equipment Group No.1:",
+        "Case 300 through 800 Series",
+        "Cat D-2 through D-4",
+        "Deere 400 and 450",
+        "Dresser TD-7, TD-8 and TD-9",
+        "Fiat-Allis FD-5 through FD-7",
+        "Komatsu D21E through D37P",
+        "Liebherr PR711 and PR721"
+      ],
+      "S2*": [
+        "Tractor Models in Equipment Group No.2:",
+        "Case 1150",
+        "Cat D-5",
+        "Deere 750",
+        "Dresser TD-12",
+        "Fiat-Allis FD9 and 10",
+        "Komatsu D58P",
+        "Liebherr PR731"
+      ],
+      "S3*": [
+        "Tractor Models in Equipment Group No.3:",
+        "Case 1450 and 1550",
+        "Cat D-6",
+        "Deere 850",
+        "Dresser TD-15",
+        "Komatsu D63PE through D68P",
+        "Liebherr PR741"
+      ],
+      "S4*": [
+        "Tractor Models in Equipment Group No.4:",
+        "Cat D-7 and 814",
+        "Dresser TD-20",
+        "Fiat-Allis 14 and FD14",
+        "Komatsu D83P",
+        "Terex 82-30"
+      ],
+      "S5*": [
+        "Tractor Models in Equipment Group No.5:",
+        "Cat D-8 and 824",
+        "Dresser TD-25",
+        "Fiat-Allis FD20",
+        "Komatsu D135A",
+        "Terex 82-40",
+        "Michigan 280",
+        "Raygo CHD 17 and CD-500"
+      ]
+    }
+  },
+  "AIRCP": {
+    "_class_details": [
+      "This class includes all types of self-contained units, regardless of power (gas, diesel and lpg) or type of compression (reciprocating, screw and vane)."
+    ],
+    "PORT": {
+      "_make_details": [
+        "Models are listed in accordance with mfr's rated capacity in CFPM (cubic feet per minute) at 100 psi.",
+        "Model rates include 50 LF of hose, all hose whips, fittings, couplings and any compressor attachments."
+      ]
+    }
+  },
+  "AIRDL": {
+    "_class_details": [
+      "This class includes all types of air drills, pneumatically propelled, including attachments.",
+      "Expendable carbon drill steel, bits and shanks shall be paid by separate invoice."
+    ],
+    "CLR": {
+      "_make_details": [
+        "Models are rated in accordance with the cylinder bore diameter in inches."
+      ]
+    }
+  },
+  "AIRTO": {
+    "_class_details": [
+      "This class includes all types of air tools, including paving breakers, clay spades and diggers, sinker rock drills, trench diggers, sheeting/spike drivers, backfill tampers and hand-held grinding tools.",
+      "Expendable drill steel, bits and breakers points, grinding wheels and shanks shall be paid by separate invoice."
+    ],
+    "ATOL": {
+      "_make_details": [
+        "Models are rated by tool weight in pounds, determined in accordance with the mfr's specifications."
+      ]
+    }
+  },
+  "ASDSP": {
+    "_class_details": [
+      "Model rates include all attachments, accessories and automatic grade and line control."
+    ]
+  },
+  "ASPAV": {
+    "_class_details": [
+      "Model rates include all attachments, accessories and automatic grade and line control."
+    ]
+  },
+  "ASPWP": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "AUGCL": {
+    "_class_details": [
+      "Model rates include carrier, attachments and accessories with up to 20 feet of auger flights.",
+      "Consumable bits or tips shall be paid by separate invoice."
+    ]
+  },
+  "AUGHZ": {
+    "_class_details": [
+      "Model rates include all attachments and accessories with up to 30 feet of auger flight, track and/or pipe pusher.",
+      "Consumable bits or tips shall be paid by separate invoice.",
+      "Power unit is included."
+    ]
+  },
+  "AUGTK": {
+    "_class_details": [
+      "Model rates include truck / carrier, all attachments and accessories with up to 20 feet of auger flight.",
+      "Consumable bits or tips shall be paid by separate invoice."
+    ]
+  },
+  "BITDT": {
+    "_class_details": [
+      "This class includes all equipment for handling bituminous materials under pressure.",
+      "Model capacity is rated in US gallons.",
+      "Model rates include pumps, spray bars and other attachments and accessories."
+    ],
+    "TLMD": {
+      "_make_details": ["Models in this make do not include towing units."]
+    },
+    "TRMD": {
+      "_make_details": ["Models in this make include truck / carrier."]
+    }
+  },
+  "BRMSW": {
+    "_class_details": [
+      "Model rates include all attachments and accessories with brooms of any type.",
+      "Rates include broom wear."
+    ],
+    "MTTD": {
+      "_make_details": [
+        "Models are traction, PTO (power take-off) or engine driven."
+      ]
+    },
+    "SWSP": {
+      "_make_details": [
+        "Models are rated in accordance with hopper size in cubic yards."
+      ]
+    }
+  },
+  "BRUCP": {
+    "_class_details": [
+      "Model rates include all attachments, accessories and power unit."
+    ],
+    "BCSM": {
+      "_make_details": [
+        "Models are rated in accordance with the cutter head width in inches."
+      ]
+    }
+  },
+  "COMHG": {
+    "_class_details": [
+      "This class includes pan, vibrating plate, rammer and jumping jack type compactors (gas or diesel).",
+      "This includes all attachments and accessories."
+    ],
+    "COMP": {
+      "_make_details": [
+        "Models are listed in accordance with the weight in pounds."
+      ]
+    }
+  },
+  "CONMX": {
+    "SORP": {
+      "_make_details": [
+        "Models are rated by mfr's capacity in sacks or cubic feet."
+      ]
+    },
+    "TRMX": {
+      "_make_details": [
+        "Models are PTO (power take-off) type, including carrier.",
+        "Models are rated by mfr's capacity in cubic yards."
+      ]
+    }
+  },
+  "CONPM": {
+    "_class_details": [
+      "This class includes truck / carrier and self-powered trailer-mounted units.",
+      "Model rates include attachments, accessories and hoses."
+    ]
+  },
+  "CONSF": {
+    "_class_details": [
+      "Model rates include all attachments and accessories.",
+      "Detached, independently powered finished bridges or spray/tyne machines are not included."
+    ]
+  },
+  "CONVB": {
+    "_class_details": [
+      "Model rates include all attachments and accessories, including vibrator motor.",
+      "However, independent power, whether air or electric, shall be paid as a separate item."
+    ]
+  },
+  "CRBEX": {
+    "_class_details": [
+      "This class is for self-propelled models for asphalt or concrete curb and gutter sections."
+    ],
+    "CEM": {
+      "_make_details": [
+        "Models are rated by mfr's maximum width recommendations in inches.",
+        "Model rates include attachments, accessories and molds."
+      ]
+    }
+  },
+  "CRBSF": {
+    "_class_details": [
+      "Model rates include all attachments, accessories and barrier or curb molds."
+    ]
+  },
+  "ELGEN": {
+    "_class_details": [
+      "Rates are for gas or diesel power and alternating or direct current."
+    ],
+    "GEN": {
+      "_make_details": [
+        "Models are rated in accordance with mfr's output in kilowatts."
+      ]
+    },
+    "LITE": {
+      "_make_details": ["Models include trailer, pole and generator."]
+    }
+  },
+  "ELTOL": {
+    "_class_details": [
+      "This class includes electric powered, hand-held tools not listed elsewhere in this book.",
+      "Expendable bits, blades, discs, wheels, etc. shall be paid by separate invoice."
+    ],
+    "TOOL": {
+      "_make_details": [
+        "Models are rated in accordance with mfr's suggested retail price."
+      ]
+    }
+  },
+  "FKLFT": {
+    "_class_details": ["Model rates include attachments and accessories."],
+    "FLT": {
+      "_make_details": [
+        "Models are listed in accordance with the mfr's maximum rated capacity in pounds."
+      ]
+    }
+  },
+  "GRADR": {
+    "_class_details": [
+      "Model rates include ripper and scarifier attachments and all accessories.",
+      "Electronic blade control and specialty cutting tools shall be paid separately."
+    ]
+  },
+  "HAMMR": {
+    "_class_details": [
+      "Model rates include attachments, accessories and power unit.",
+      "This does not include carrier."
+    ]
+  },
+  "HCECL": {
+    "_class_details": [
+      "Model rates include all attachments and accessories required for lifting or digging.",
+      "Pavement breaker and compactor attachments are not included."
+    ]
+  },
+  "HCESP": {
+    "_class_details": [
+      "Model rates include all attachments and accessories required for lifting or digging.",
+      "Pavement breaker and compactor attachments are not included."
+    ]
+  },
+  "HCETD": {
+    "_class_details": [
+      "Model rates include truck / carrier, as well as all attachments and accessories required for lifting or digging.",
+      "Pavement breaker and compactor attachments are not included."
+    ]
+  },
+  "HCETG": {
+    "_class_details": [
+      "Model rates include all lifting and digging attachments and accessories.",
+      "Any truck / carrier shall be paid separately.",
+      "Pavement breaker and compactor attachments are not included."
+    ]
+  },
+  "HYLFT": {
+    "_class_details": [
+      "This class includes self-propelled and PTO (power take-off) units whether gas, diesel or electric.",
+      "For truck or carrier-mounted units, the truck / carrier shall be paid separately."
+    ],
+    "BOOM": {
+      "_make_details": ["Models are rated by mfr's maximum extension in feet."]
+    },
+    "SCIS": {
+      "_make_details": ["Models are rated by mfr's maximum extension in feet."]
+    }
+  },
+  "LDRCL": {
+    "_class_details": [
+      "Model rates include all attachments and accessories, excluding clam-action buckets and backhoes.",
+      "See attachment class (ATTCH) for clam-action buckets and backhoes."
+    ]
+  },
+  "LDRRT": {
+    "_class_details": [
+      "Model rates include all attachments and accessories.",
+      "Clam-action buckets, 4WD and backhoes are excluded unless otherwise noted."
+    ]
+  },
+  "LEADS": {
+    "_class_details": [
+      "This class includes headblock, taper top, tip sled and connector, foot yoke, foot yoke sheave, intermediate flights, and all attachments and accessories."
+    ],
+    "FIXD": {
+      "_make_details": [
+        "Models are rated in accordance with the height of the lead measured in linear feet."
+      ]
+    },
+    "SWNG": {
+      "_make_details": [
+        "Models are rated in accordance with the height of the lead measured in linear feet."
+      ]
+    }
+  },
+  "NONOP": {
+    "_class_details": [
+      "Note various units for different items.",
+      "This class is for non-operated equipment with daily rates.",
+      "The allowance is entered on the extra work bill by using the unit listed multiplied by number of days in the hours worked column.",
+      "This list is limited to items with long estimated lives.",
+      "Additional traffic related items such as cones and barricades are listed under the TRAFC class.",
+      "Other non-operated items with short estimated lives should be treated as materials and should not be rented.",
+      "Non-rented items are 1) intended to be job specific (amortized over the life of the project) and 2) have an estimated life measured by number of uses rather than a length of time."
+    ],
+    "SSFW": {
+      "0340": [
+        "This model is a metal form for a cast-in-place installation of Caltrans Type 25 Concrete Barrrier",
+        "<a href='/standards/other_pdfs/caltrans_standard_plan_B11-53_type_25_barrier.pdf'>Caltrans Standard Plan B11-53 (Type 25 Barrier)</a>"
+      ],
+      "0350": [
+        "This model is a metal form for a cast-in-place installation of Caltrans Type 26 Concrete Barrrier",
+        "<a href='/standards/other_pdfs/caltrans_standard_plan_B11-54_type_26_barrier.pdf'>Caltrans Standard Plan B11-54 (Type 26 Barrier)</a>"
+      ],
+      "0360": [
+        "This model is a metal form for a cast-in-place installation of Caltrans Type 27 Concrete Barrrier"
+      ],
+      "0370": [
+        "This model is a metal form for a cast-in-place installation of Caltrans Type 50 Concrete Barrrier"
+      ],
+      "0660": [
+        "This model is a wood form for a cast-in-place installation of Caltrans Type 27 Concrete Barrrier"
+      ]
+    }
+  },
+  "PGDIA": {
+    "_class_details": [
+      "Model rates include water (but not water truck or trailer), coolant, cutting compounds and all attachments and accessories.",
+      "Replacement blades are included in model rates."
+    ]
+  },
+  "PGT-C": {
+    "_class_details": [
+      "Model rates include water (but not water truck or trailer), coolant, cutting compounds and all attachments and accessories.",
+      "Replacement bits and tips are included in model rates."
+    ]
+  },
+  "PUMWA": {
+    "_class_details": [
+      "This class includes centrifugal and diaphragm type pumps (including submersibles)."
+    ],
+    "APMP": {
+      "_make_details": [
+        "Model rates are listed by mfr's rated capacity measured in thousands of gallons per hour at 10 feet of suction head.",
+        "Model rates include power (gas, diesel or electric generator), 25 linear feet of suction hose, 50 linear feet of discharge hose, foot valve and all fittings, attachments and accessories."
+      ],
+      "000-010": ["CAPACITY: ≤ 167 GPM AT 10 FT OF HEAD"],
+      "010-020": ["CAPACITY: 167 - 333 GPM AT 10 FT OF HEAD"],
+      "020-030": ["CAPACITY: 333 - 500 GPM AT 10 FT OF HEAD"],
+      "030-050": ["CAPACITY: 500 - 833 GPM AT 10 FT OF HEAD"],
+      "050-125": ["CAPACITY: 833 - 2,083 GPM AT 10 FT OF HEAD"],
+      "125-250": ["CAPACITY: 2,083 - 4,167 GPM AT 10 FT OF HEAD"]
+    },
+    "INHS": {
+      "_make_details": [
+        "Additional 25 foot lengths of suction hose shall be paid based on the inside hose diameter in inches."
+      ]
+    },
+    "OUHS": {
+      "_make_details": [
+        "Additional 50 foot lengths of discharge hose shall be paid based on the inside hose diameter in inches."
+      ]
+    }
+  },
+  "ROL-2": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "ROLRT": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "ROTAM": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "ROTAT": {
+    "_class_details": [
+      "Models are listed by drum dimensions in feet in either direction. The first digit is the diameter and the second digit is the length of each drum.",
+      "Model rates include all attachments and accessories."
+    ]
+  },
+  "ROVIB": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "S&CCL": {
+    "_class_details": [
+      "Model rates include all attachments and accessories when used as a crane, clamshell, dragline or for pile driving.",
+      "Model rates do not include leads or driving equipment."
+    ]
+  },
+  "S&CTK": {
+    "_class_details": [
+      "Model rates include truck / carrier, as well as all attachments and accessories when used as a crane, clamshell, dragline or for pile driving.",
+      "Model rates do not include leads and driving equipment."
+    ]
+  },
+  "SANBL": {
+    "_class_details": [
+      "Model rates include helmets, gauntlets, 100 feet of hose, pot, all control valves, nozzles and other attachments and accessories.",
+      "Models are rated in accordance with the capacity of the pot measured in pounds of sand."
+    ]
+  },
+  "SAWCH": {
+    "_class_details": [
+      "This class includes hand-held type, one or two man, gas, air or electric powered saws including all attachments and accessories.",
+      "Blades, chains and tips shall be paid separately.",
+      "Saws which cost less than $500 are considered minor tools and are no longer listed.",
+      "Models are rated in accordance with mfr's rated horsepower."
+    ]
+  },
+  "SAWCO": {
+    "_class_details": [
+      "This class includes self-powered gas, air or electric powered saws.",
+      "Model rates include water (but not water truck or trailer), coolant, cutting compounds and all attachments and accessories.",
+      "Saw blades or abrasive discs shall be paid in accordance with codes from the ABSK make in this class."
+    ],
+    "ABOP": {
+      "_make_details": [
+        "Model rates are listed in accordance with mfr's rated horsepower."
+      ]
+    },
+    "BLADE SAWKERF": {
+      "_make_details": [
+        "Rates in this make are entered on the extra work bill by using the length x depth per blade."
+      ]
+    }
+  },
+  "SCRSP": {
+    "_class_details": ["Model rates include all attachments and accessories."]
+  },
+  "TRACC": {
+    "_class_details": [
+      "Model rates include all attachments and accessories such as dozer blades and power control blocks when needed.",
+      "Model rates do not include backhoe, winch or ripper units listed elsewhere in this schedule."
+    ]
+  },
+  "TRACH": {
+    "_class_details": [
+      "Model rates include all attachments and accessories such as dozer blades, power control units and push blocks, when needed.",
+      "Model rates do not include backhoe, winch or ripper units listed elsewhere in this schedule."
+    ]
+  },
+  "TRACS": {
+    "<50*": {
+      "_make_details": [
+        "<50 horsepower models include, but are not limited to:",
+        "Bobcat 440B, 443B, 450, 453, 542B, 543B, 553, 742B, 743B, 753, 763, 773, 1840 and 7753",
+        "Case 1818, 1825, 1835C and 1838",
+        "Deere 3375, 4475, 5200, 5575, 6675 and 7775",
+        "Ford L250, L454, L455, L553, L555 and L781",
+        "Gehl SL3310, SL3410, SL3725, SL3825, SL4525 and SL4625",
+        "Hydra-Mac 1300, 1600 and 1700D",
+        "JCB 165Robot and 165Robot Ser II",
+        "Massey-Ferguson MF30E",
+        "Mahto LS70, LS75 and L933",
+        "Mustang 920, 920E, 921, 930A, 930AE, 940, 940E, 910, 911 and 2040",
+        "New Holland 1220, 1320, 1620, 1920, 2120, 3415, 3930, L250, L255, L465, LX465, LX485, L565, LX565 and LX665",
+        "Ramrod 230B, 300B, 584B, 784B, 550, 750, 1350 and 1550",
+        "Thomas T-82, T-83, T-83S, T-103, T-132, T-133 and T-133S",
+        "Trak 1300HD, 1300C, 1300CX and 1500C"
+      ]
+    },
+    ">50*": {
+      "_make_details": [
+        ">50 horsepower models include, but are not limited to:",
+        "Bobcat 853, 863, 873, 943, 953 and 980",
+        "Case 1845C",
+        "Deere 5300, 5400, 6200, 6300, 6400 and 8875",
+        "Ford L783, L785, 250C and 260C",
+        "Gehl SL5625, SL6625 and SL6635",
+        "Hydra-Mac 1850, 2650 and 2650D",
+        "JCB 185Robot",
+        "Massey-Ferguson MF40E and MF50EX",
+        "Mustang 960 and 2060",
+        "New Holland 4630, 5030, 5640, 6640, 7740, 7840, 8240 and 8340",
+        "L865, LX865, LX885, 345D and 545D",
+        "Ramrod 1750 and 1950",
+        "Thomas T-173HL, T-173HLS, T173HLS II, T-203HD and T233HD",
+        "Trak 1700HD, 1700C, 1700CX and 1700XHP"
+      ]
+    }
+  },
+  "TRAFA": {
+    "FLAS": {
+      "_make_details": [
+        "Model rates include supplies, replacements and servicing."
+      ]
+    }
+  },
+  "TRAFC": {
+    "_class_details": [
+      "Model rates include supplies and servicing.",
+      "Model rates are entered on the extra work bill by using days instead of hours worked.",
+      "Crash cushion barrels and K-rail sections are now listed with Non-Operated items (NONOP)."
+    ],
+    "2TC": {
+      "_make_details": [
+        "Cones lost or destroyed are no longer paid on invoice."
+      ]
+    },
+    "3DEL": {
+      "_make_details": [
+        "Delineators lost or destroyed are no longer paid on invoice."
+      ]
+    }
+  },
+  "TRAIL": {
+    "_class_details": [
+      "This class includes drop deck type with and without folding / removable gooseneck or oscillating trunion.",
+      "Model rates are listed in accordance with number of axles and tires per axle.",
+      "Model rates include all attachments and accessories related to hauling.",
+      "Model rates also include jeeps, booster axles, and dollies.",
+      "Pilot vehicles are extra.",
+      "All loads shall be hauled legally or within Caltrans Permit Policy."
+    ]
+  },
+  "TRAIT": {
+    "_class_details": [
+      "Model rates are listed in accordance with the mfr's rated capacity in tons.",
+      "Model rates include all attachments and accessories related to hauling.",
+      "Pilot vehicles are extra."
+    ]
+  },
+  "TRENC": {
+    "_class_details": [
+      "Model rates inlucde all attachments and accessories.",
+      "When used, tungsten carbide tips shall be charged seperately."
+    ]
+  },
+  "TRUCK": {
+    "_class_details": [
+      "This class includes includes water trucks, freight trucks and passenger vehicles, including 4WD option.",
+      "Model rates are listed by mfr's gross vehicle weight in pounds",
+      "For tractor-trailer units, the gross vehicle weight of the cargo carrying unit or units will control.",
+      "In the case of water trucks, the tank capacity expressed in pounds of water plus 20%, will determine the gross vehicle weight to be used for rate selection.",
+      "Model rates include all attachments and accessories related to hauling, with and without trailers as needed.",
+      "For attachment allowance, see attachment class (ATTCH)."
+    ],
+    "T&TT": {
+      "00-06": ["WATER TRUCKS: ≤ 5,833 LBS GVW"],
+      "06-12": ["WATER TRUCKS: 5,833 - 10,000 LBS GVW"],
+      "12-20": ["WATER TRUCKS: 10,000 - 16,667 LBS GVW"],
+      "20-28": ["WATER TRUCKS: 16,667 - 23,333 LBS GVW"],
+      "28-36": ["WATER TRUCKS: 23,333 - 30,000 LBS GVW"],
+      "36-48": ["WATER TRUCKS: 30,000 - 40,000 LBS GVW"],
+      "48-60": ["WATER TRUCKS: 40,000 - 50,000 LBS GVW"],
+      "60": ["WATER TRUCKS: > 50,000 LBS GVW"]
+    }
+  },
+  "TRUOF": {
+    "_class_details": [
+      "This class includes end dump, belly dump and earthmover types.",
+      "Model rates are listed in accordance with mfr's rated capacity in tons. ",
+      "In the case of earthmover types, rated by mfr's volumetric capacity, a factor of 1.5 tons per cubic yard of struck capacity shall be used.",
+      "Model rates include all attachments and accessories."
+    ],
+    "TRU": {
+      "10-15": ["EARTH MOVERS: 6.67 - 10 CY CAPACITY"],
+      "18-22": ["EARTH MOVERS: 12 - 14.67 CY CAPACITY"],
+      "22-27": ["EARTH MOVERS: 14.67 - 18 CY CAPACITY"],
+      "27-32": ["EARTH MOVERS: 18 - 21.33 CY CAPACITY"],
+      "32-40": ["EARTH MOVERS: 21.33 - 26.67 CY CAPACITY"],
+      "40-55": ["EARTH MOVERS: 26.67 - 36.67 CY CAPACITY"],
+      "55-67": ["EARTH MOVERS: 36.67 - 44.67 CY CAPACITY"]
+    }
+  },
+  "TRUON": {
+    "_class_details": [
+      "This class includes all end dump, side dump and belly dump types.",
+      "Model rates include all attachments and accessories."
+    ]
+  },
+  "WELD": {
+    "AWM": {
+      "_make_details": [
+        "This make includes diesel, gas or electric powered units.",
+        "Model rates are listed in accordance with capacity in amps.",
+        "Model rates include helmets, holders, cable and all attachments and accessories."
+      ]
+    },
+    "GWO": {
+      "_make_details": [
+        "Model rates include regulator, 25 feet of hose, torch, goggles, lighter and attachments and accessories.",
+        "Gas and rod shall be paid separately."
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "cm-tools",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.1",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "d3": "^7.9.0",
+    "date-fns": "^4.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.11.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^7.3.2"
+  },
+  "overrides": {
+    "glob": "^10.5.0",
+    "brace-expansion": "^2.0.3",
+    "cross-spawn": "^7.0.6",
+    "diff": "^7.0.0",
+    "rollup": "^4.59.0",
+    "tar": "^7.5.11",
+    "picomatch": "^4.0.4",
+    "protocol-buffers-schema": "^3.6.1",
+    "uuid": "^14.0.0",
+    "postcss": "^8.5.12",
+    "tmp": "^0.2.7"
+  }
+}

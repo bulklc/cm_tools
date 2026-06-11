@@ -1,0 +1,64 @@
+:root {
+    --primary-blue: #017dc3;
+    --primary-yellow: #fdb813;
+    --primary-green: #8ac73e;
+    --faded-blue: #8bbbd8;
+    --faded-yellow: #fae8c6;
+    --faded-green: #b8dc8f;
+    --navbar-height: 72px;
+    --font-size-base: 1rem;
+    --font-size-large: 1rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Accessible visually-hidden utility (screen-reader only) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.text-primary {
+    color: var(--primary-blue) !important;
+}
+
+.navbar {
+    height: var(--navbar-height);
+}
+
+
+.page-container {
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - var(--navbar-height));
+    overflow-y: hidden;
+    padding: 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Negative value styling for billing amounts and quantities */
+.negative-value {
+    color: #dc3545 !important;
+}

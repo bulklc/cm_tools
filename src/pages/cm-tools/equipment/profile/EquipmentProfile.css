@@ -1,0 +1,635 @@
+.equipment-profile-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #6c757d;
+    font-style: italic;
+    text-align: center;
+    padding: 2rem;
+}
+
+.equipment-profile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    overflow: hidden;
+}
+
+/* All sections: equal height (1/5 each) */
+.equipment-profile-section {
+    flex: 1 1 20%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #f8f9fa;
+}
+
+/* Photo section */
+.photo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    overflow: hidden;
+}
+
+.photo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.photo-link:hover {
+    opacity: 0.85;
+}
+
+.no-photo-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: #adb5bd;
+    font-size: 0.875rem;
+    font-style: italic;
+}
+
+/* Hierarchy section - horizontal layout */
+.hierarchy-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+    overflow: hidden;
+}
+
+.equipment-hierarchy.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.equipment-hierarchy.horizontal .hierarchy-item {
+    flex: 0 0 calc(25% - 6px);
+    min-width: 0;
+    background: #fff;
+    border: 1px solid #e1e5ee;
+    border-radius: 4px;
+    padding: 0.25rem 0.35rem;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hierarchy-item.misc {
+    background: linear-gradient(135deg, #fde8e8 0%, #fff5f5 100%);
+    border-color: #8B0000;
+}
+
+.hierarchy-item.misc .hierarchy-code {
+    color: #8B0000;
+}
+
+.hierarchy-item.highlight {
+    background: linear-gradient(135deg, #e8f4fd 0%, #f0f8ff 100%);
+    border-color: var(--primary-blue);
+}
+
+.hierarchy-item.highlight.misc {
+    background: linear-gradient(135deg, #fde8e8 0%, #fff5f5 100%);
+    border-color: #8B0000;
+}
+
+.hierarchy-item.highlight.misc .hierarchy-code {
+    color: #8B0000;
+}
+
+.hierarchy-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6c757d;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.1rem;
+}
+
+.hierarchy-code {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    word-wrap: break-word;
+}
+
+.hierarchy-desc {
+    font-size: 0.7rem;
+    color: #495057;
+    margin-top: 0.05rem;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.hierarchy-collapse-btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.08);
+    color: #6c757d;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.15s ease;
+}
+
+.hierarchy-collapse-btn:hover {
+    background: var(--primary-blue);
+    color: #fff;
+    opacity: 1;
+}
+
+.hierarchy-item {
+    position: relative;
+}
+
+.hierarchy-connector.horizontal {
+    width: 8px;
+    height: 2px;
+    background: #dee2e6;
+    flex-shrink: 0;
+}
+
+/* Chart sections */
+.chart-section {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Single value display for misc equipment */
+.single-value-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.single-value-display .value-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6c757d;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.single-value-display .value-title-link {
+    color: var(--primary-blue);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.single-value-display .value-title-link:hover {
+    color: #015ea0;
+}
+
+.single-value-display .value-amount {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+/* Misc model sections */
+.misc-rate-info,
+.misc-date-info,
+.misc-remarks {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.misc-section-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-blue);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.misc-section-title:hover {
+    color: #015ea0;
+}
+
+a.misc-section-title {
+    display: inline-block;
+}
+
+.misc-rate-grid,
+.misc-date-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.misc-rate-item,
+.misc-date-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid #e1e5ee;
+    border-radius: 6px;
+    min-width: 100px;
+}
+
+.misc-rate-label,
+.misc-date-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6c757d;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.25rem;
+}
+
+.misc-rate-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #212529;
+}
+
+.misc-date-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.misc-remarks-text {
+    font-size: 0.9rem;
+    color: #495057;
+    line-height: 1.5;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Edit button for equipment details */
+.hierarchy-edit-btn {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background: rgba(1, 125, 195, 0.1);
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.15s ease;
+}
+
+.hierarchy-edit-btn:hover {
+    background: var(--primary-blue);
+    opacity: 1;
+}
+
+/* Photo section container */
+.photo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0.25rem;
+}
+
+.photo-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 6px;
+    object-fit: contain;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo-edit-btn {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.photo-container:hover .photo-edit-btn {
+    opacity: 1;
+}
+
+.photo-edit-btn:hover {
+    background: var(--primary-blue);
+}
+
+/* No photo placeholder with add button */
+.no-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.add-photo-btn {
+    padding: 0.75rem 1.25rem;
+    background: #f8f9fa;
+    border: 2px dashed #e1e5ee;
+    border-radius: 8px;
+    color: #6c757d;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-photo-btn:hover {
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+    background: #e8f4fd;
+}
+
+/* Thumbnail selection for non-model levels */
+.thumbnail-selection-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0.25rem;
+    overflow: hidden;
+}
+
+/* Thumbnail display for category/class/make levels */
+.thumbnail-display {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnail-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.thumbnail-link:hover {
+    opacity: 0.85;
+}
+
+.thumbnail-display img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 6px;
+    object-fit: contain;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Thumbnail edit button - similar to photo-edit-btn */
+.thumbnail-edit-btn {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.thumbnail-display:hover .thumbnail-edit-btn {
+    opacity: 1;
+}
+
+.thumbnail-edit-btn:hover {
+    background: var(--primary-blue);
+}
+
+/* No thumbnail placeholder */
+.no-thumbnail-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.add-thumbnail-btn {
+    padding: 0.75rem 1.25rem;
+    background: #f8f9fa;
+    border: 2px dashed #e1e5ee;
+    border-radius: 8px;
+    color: #6c757d;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-thumbnail-btn:hover {
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+    background: #e8f4fd;
+}
+
+/* Model Details Button (Question Mark) */
+.hierarchy-details-btn {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.08);
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.15s ease;
+}
+
+.hierarchy-details-btn:hover {
+    background: var(--primary-blue);
+    color: #fff;
+    opacity: 1;
+}
+
+/* Model Details Modal */
+.model-details-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.model-details-modal {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.model-details-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #e1e5ee;
+    background: #f8f9fa;
+}
+
+.model-details-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.model-details-close-btn {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #6c757d;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.model-details-close-btn:hover {
+    background: rgba(0, 0, 0, 0.08);
+    color: #212529;
+}
+
+.model-details-content {
+    padding: 1rem 1.25rem;
+    overflow-y: auto;
+}
+
+.model-details-list {
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+    list-style-type: disc;
+}
+
+.model-details-list li {
+    padding: 0.35rem 0;
+    font-size: 0.9rem;
+    color: #495057;
+    line-height: 1.4;
+}
+
+.model-details-list li:first-child {
+    font-weight: 600;
+    color: #212529;
+    list-style-type: none;
+    margin-left: -1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e1e5ee;
+    margin-bottom: 0.25rem;
+}
+
+/* Uniform styling for class/make details (no header styling) */
+.model-details-list.uniform li:first-child {
+    font-weight: normal;
+    color: #495057;
+    list-style-type: disc;
+    margin-left: 0;
+    padding-bottom: 0.35rem;
+    border-bottom: none;
+    margin-bottom: 0;
+}

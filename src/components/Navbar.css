@@ -1,0 +1,83 @@
+.custom-navbar {
+    background-color: var(--primary-blue) !important;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+    font-size: 1rem;
+    /* Changed from var(--font-size-large) to match base size */
+    transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: var(--primary-yellow) !important;
+}
+
+.custom-dropdown .dropdown-toggle {
+    color: white !important;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    margin-left: 0.5rem;
+}
+
+.custom-dropdown .dropdown-menu {
+    background-color: white;
+    border: 2px solid var(--primary-blue);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.custom-dropdown-item {
+    color: var(--primary-blue) !important;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    /* Changed from var(--font-size-large) */
+    transition: all 0.3s ease;
+}
+
+.custom-dropdown-item:hover {
+    background-color: var(--faded-yellow) !important;
+    color: var(--primary-blue) !important;
+}
+
+.custom-dropdown .dropdown-item:first-child:hover {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.custom-dropdown .dropdown-item:last-child:hover {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.login-btn {
+    background-color: white !important;
+    border-color: white !important;
+    color: var(--primary-blue) !important;
+    font-weight: 600;
+    font-size: 1rem;
+    /* Added to match navbar links */
+    transition: all 0.3s ease;
+    margin-right: 0.5rem;
+    /* match vertical padding for balanced spacing */
+}
+
+.login-btn:hover {
+    background-color: var(--primary-yellow) !important;
+    /* color: var(--primary-blue) !important; */
+    /* border-color: var(--primary-yellow) !important; */
+}
+
+.user-name {
+    font-weight: 500;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.navbar-toggler {
+    background-color: var(--faded-yellow) !important;
+    border-color: var(--faded-yellow) !important;
+}

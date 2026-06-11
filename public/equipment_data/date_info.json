@@ -1,0 +1,47 @@
+[
+  {
+    "filename": "stnd_2026_04_01_to_2027_03_31",
+    "description": "Apr 2026 - Mar 2027",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_26_27.pdf"
+  },
+  {
+    "filename": "stnd_2025_04_01_to_2026_03_31",
+    "description": "Apr 2025 - Mar 2026",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_25_26.pdf"
+  },
+  {
+    "filename": "stnd_2024_04_01_to_2025_03_31",
+    "description": "Apr 2024 - Mar 2025",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2024.pdf"
+  },
+  {
+    "filename": "stnd_2023_04_01_to_2024_03_31",
+    "description": "Apr 2023 - Mar 2024",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2023.pdf"
+  },
+  {
+    "filename": "stnd_2022_09_01_to_2023_03_31",
+    "description": "Sep 2022 - Mar 2023",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book-sep2022-a11y.pdf"
+  },
+  {
+    "filename": "stnd_2022_04_01_to_2022_08_31",
+    "description": "Apr 2022 - Aug 2022",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book-apr2022-aug2022.pdf"
+  },
+  {
+    "filename": "stnd_2021_04_01_to_2022_03_31",
+    "description": "Apr 2021 - Mar 2022",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2021.pdf"
+  },
+  {
+    "filename": "stnd_2020_04_01_to_2021_03_31",
+    "description": "Apr 2020 - Mar 2021",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2020.pdf"
+  },
+  {
+    "filename": "misc_curr",
+    "description": "Miscellaneous Rates",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/contract-administration/misc-equipment-rental-rates/misc-currtxt.txt"
+  }
+]

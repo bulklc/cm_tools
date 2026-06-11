@@ -1,0 +1,13 @@
+[
+  {
+    "label": "CM Tools",
+    "url": "cm-tools",
+    "children": [
+      {
+        "label": "Equipment Overview",
+        "url": "equipment-overview",
+        "tooltip": "Search and review Caltrans-rated equipment"
+      }
+    ]
+  }
+]

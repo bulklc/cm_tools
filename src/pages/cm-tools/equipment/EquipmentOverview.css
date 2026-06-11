@@ -1,0 +1,52 @@
+.equipment-overview-container {
+    display: flex;
+    gap: 1rem;
+    /* padding: 1rem; */
+    width: 100%;
+    height: 100%;
+    /* height: calc(100vh - 60px); */
+    /* fill below navbar */
+    box-sizing: border-box;
+}
+
+.equipment-card {
+    background: #fff;
+    border: 1px solid #e1e5ee;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.equipment-sunburst-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.sunburst-with-search {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.sunburst-with-search .equipment-search {
+    flex-shrink: 0;
+}
+
+.sunburst-with-search> :last-child {
+    flex: 1;
+    min-height: 0;
+}
+
+.equipment-profile-wrapper {
+    flex: 1;
+    height: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: auto;
+}

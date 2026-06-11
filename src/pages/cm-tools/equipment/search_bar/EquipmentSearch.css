@@ -1,0 +1,210 @@
+.equipment-search {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+
+.search-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    padding: 0.5rem 2rem 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid #e1e5ee;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-input:focus {
+    border-color: #017dc3;
+    box-shadow: 0 0 0 3px rgba(1, 125, 195, 0.15);
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.search-clear-btn {
+    position: absolute;
+    right: 0.5rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    color: #999;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.search-clear-btn:hover {
+    background-color: #f0f0f0;
+    color: #666;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 350px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #e1e5ee;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    margin-top: 4px;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.15s;
+}
+
+.search-result-item:last-child {
+    border-bottom: none;
+}
+
+.search-result-item:hover,
+.search-result-item.highlighted {
+    background-color: #f5f8fc;
+}
+
+.result-content {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.result-model {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #017dc3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result-model-code {
+    font-weight: 700;
+}
+
+.result-model-desc {
+    font-weight: 400;
+    color: #333;
+}
+
+.result-hierarchy {
+    font-size: 0.75rem;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+}
+
+.result-hierarchy .separator {
+    color: #999;
+}
+
+.result-desc {
+    color: #888;
+    font-style: italic;
+}
+
+.result-remarks {
+    font-size: 0.7rem;
+    color: #888;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.result-photo {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 0.75rem;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.result-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search-no-results {
+    padding: 1rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.875rem;
+}
+
+/* Highlight matched text */
+.search-result-item mark {
+    background-color: #fff3cd;
+    color: inherit;
+    padding: 0;
+    border-radius: 2px;
+}
+
+/* Misc source models - red text */
+.search-result-item.misc-source .result-model {
+    color: #8B0000;
+}
+
+.search-result-item.misc-source .result-model-code {
+    color: #8B0000;
+}
+
+/* Photo tooltip */
+.photo-tooltip {
+    position: fixed;
+    z-index: 10000;
+    pointer-events: none;
+    background: #fff;
+    border: 2px solid #017dc3;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    padding: 4px;
+    overflow: hidden;
+}
+
+.photo-tooltip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+/* .result-photo {
+    cursor: help;
+} */
+
+.search-result-item.misc-source .result-model-desc {
+    color: #8B0000;
+}

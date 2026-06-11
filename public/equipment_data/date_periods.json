@@ -1,0 +1,74 @@
+[
+  {
+    "id": 41,
+    "period_key": "2026_04_01_to_2027_03_31",
+    "description": "Apr 2026 - Mar 2027",
+    "start_date": "2026-04-01T07:00:00.000Z",
+    "end_date": "2027-03-31T07:00:00.000Z",
+    "caltrans_link": null,
+    "is_current": true
+  },
+  {
+    "id": 7,
+    "period_key": "2025_04_01_to_2026_03_31",
+    "description": "Apr 2025 - Mar 2026",
+    "start_date": "2025-04-01T07:00:00.000Z",
+    "end_date": "2026-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_25_26.pdf",
+    "is_current": false
+  },
+  {
+    "id": 6,
+    "period_key": "2024_04_01_to_2025_03_31",
+    "description": "Apr 2024 - Mar 2025",
+    "start_date": "2024-04-01T07:00:00.000Z",
+    "end_date": "2025-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2024.pdf",
+    "is_current": false
+  },
+  {
+    "id": 5,
+    "period_key": "2023_04_01_to_2024_03_31",
+    "description": "Apr 2023 - Mar 2024",
+    "start_date": "2023-04-01T07:00:00.000Z",
+    "end_date": "2024-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2023.pdf",
+    "is_current": false
+  },
+  {
+    "id": 4,
+    "period_key": "2022_09_01_to_2023_03_31",
+    "description": "Sep 2022 - Mar 2023",
+    "start_date": "2022-09-01T07:00:00.000Z",
+    "end_date": "2023-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book-sep2022-a11y.pdf",
+    "is_current": false
+  },
+  {
+    "id": 3,
+    "period_key": "2022_04_01_to_2022_08_31",
+    "description": "Apr 2022 - Aug 2022",
+    "start_date": "2022-04-01T07:00:00.000Z",
+    "end_date": "2022-08-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book-apr2022-aug2022.pdf",
+    "is_current": false
+  },
+  {
+    "id": 2,
+    "period_key": "2021_04_01_to_2022_03_31",
+    "description": "Apr 2021 - Mar 2022",
+    "start_date": "2021-04-01T07:00:00.000Z",
+    "end_date": "2022-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2021.pdf",
+    "is_current": false
+  },
+  {
+    "id": 1,
+    "period_key": "2020_04_01_to_2021_03_31",
+    "description": "Apr 2020 - Mar 2021",
+    "start_date": "2020-04-01T07:00:00.000Z",
+    "end_date": "2021-03-31T07:00:00.000Z",
+    "caltrans_link": "https://dot.ca.gov/-/media/dot-media/programs/construction/documents/equipment-rental-rates-and-labor-surcharge/book_2020.pdf",
+    "is_current": false
+  }
+]

@@ -1,0 +1,1492 @@
+{
+  "classes": [
+    {
+      "class": "AIRCP",
+      "makes": [
+        {
+          "make": "PORT",
+          "models": [
+            {
+              "model": "016-025",
+              "filename": "AIRCP_PORT_016-025.jpg",
+              "url": "/equipment_photos/AIRCP_PORT_016-025.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "AIRTO",
+      "makes": [
+        {
+          "make": "ATOL",
+          "models": [
+            {
+              "model": "40-60",
+              "filename": "AIRTO_ATOL_40-60_1769634457427.jpg",
+              "url": "/equipment_photos/AIRTO_ATOL_40-60_1769634457427.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ASPAV",
+      "makes": [
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "AP655F",
+              "filename": "ASPAV_CAT_AP655F_1767988548553.jpg",
+              "url": "/equipment_photos/ASPAV_CAT_AP655F_1767988548553.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "WELR",
+          "models": [
+            {
+              "model": "P385A",
+              "filename": "ASPAV_WELR_P385A_1779729492405.jpg",
+              "url": "/equipment_photos/ASPAV_WELR_P385A_1779729492405.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ASPWP",
+      "makes": [
+        {
+          "make": "CLAR",
+          "models": [
+            {
+              "model": "660H",
+              "filename": "ASPWP_CLAR_660H_1767988449802.jpg",
+              "url": "/equipment_photos/ASPWP_CLAR_660H_1767988449802.jpg",
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ATTCH",
+      "makes": [
+        {
+          "make": "R-D",
+          "models": [
+            {
+              "model": "RDTPB",
+              "filename": "ATTCH_R-D_RDTPB_1781021420642.jpg",
+              "url": "/equipment_photos/ATTCH_R-D_RDTPB_1781021420642.jpg"
+            }
+          ]
+        },
+        {
+          "make": "TRCK",
+          "models": [
+            {
+              "model": "TG",
+              "filename": "ATTCH_TRCK_TG.jpg",
+              "url": "/equipment_photos/ATTCH_TRCK_TG.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            },
+            {
+              "model": "TP",
+              "filename": "ATTCH_TRCK_TP.jpg",
+              "url": "/equipment_photos/ATTCH_TRCK_TP.jpg"
+            },
+            {
+              "model": "TW",
+              "filename": "ATTCH_TRCK_TW.jpg",
+              "url": "/equipment_photos/ATTCH_TRCK_TW.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "BITDT",
+      "makes": [
+        {
+          "make": "TLMD",
+          "models": [
+            {
+              "model": "0-300",
+              "filename": "BITDT_TLMD_0-300_1769115227245.jpg",
+              "url": "/equipment_photos/BITDT_TLMD_0-300_1769115227245.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "BRMSW",
+      "makes": [
+        {
+          "make": "SFPR",
+          "models": [
+            {
+              "model": "ALL",
+              "filename": "BRMSW_SFPR_ALL.jpg",
+              "url": "/equipment_photos/BRMSW_SFPR_ALL.jpg"
+            }
+          ]
+        },
+        {
+          "make": "SWSP",
+          "models": [
+            {
+              "model": "3-6",
+              "filename": "BRMSW_SWSP_3-6_1767987921672.jpg",
+              "url": "/equipment_photos/BRMSW_SWSP_3-6_1767987921672.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            },
+            {
+              "model": "6-9",
+              "filename": "BRMSW_SWSP_6-9.jpg",
+              "url": "/equipment_photos/BRMSW_SWSP_6-9.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "BRUCP",
+      "makes": [
+        {
+          "make": "BCSM",
+          "models": [
+            {
+              "model": "09-12",
+              "filename": "BRUCP_BCSM_09-12.jpg",
+              "url": "/equipment_photos/BRUCP_BCSM_09-12.jpg"
+            },
+            {
+              "model": "12-16",
+              "filename": "BRUCP_BCSM_12-16_1768335530790.jpg",
+              "url": "/equipment_photos/BRUCP_BCSM_12-16_1768335530790.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "COMHG",
+      "makes": [
+        {
+          "make": "COMP",
+          "models": [
+            {
+              "model": "0-250",
+              "filename": "COMHG_COMP_0-250.jpg",
+              "url": "/equipment_photos/COMHG_COMP_0-250.jpg"
+            },
+            {
+              "model": "250",
+              "filename": "COMHG_COMP_250_1775585023863.jpg",
+              "url": "/equipment_photos/COMHG_COMP_250_1775585023863.jpg",
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "CONMX",
+      "makes": [
+        {
+          "make": "SORP",
+          "models": [
+            {
+              "model": "03.5-6",
+              "filename": "CONMX_SORP_03.5-6_1769028665752.jpg",
+              "url": "/equipment_photos/CONMX_SORP_03.5-6_1769028665752.jpg"
+            },
+            {
+              "model": "06-11",
+              "filename": "CONMX_SORP_06-11.jpg",
+              "url": "/equipment_photos/CONMX_SORP_06-11.jpg"
+            }
+          ]
+        },
+        {
+          "make": "TRMX",
+          "models": [
+            {
+              "model": "10-12",
+              "filename": "CONMX_TRMX_10-12.jpg",
+              "url": "/equipment_photos/CONMX_TRMX_10-12.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ELGEN",
+      "makes": [
+        {
+          "make": "GEN",
+          "models": [
+            {
+              "model": "001-003",
+              "filename": "ELGEN_GEN_001-003_1769635048174.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_001-003_1769635048174.jpg"
+            },
+            {
+              "model": "003-008",
+              "filename": "ELGEN_GEN_003-008_1769634931906.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_003-008_1769634931906.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            },
+            {
+              "model": "008-015",
+              "filename": "ELGEN_GEN_008-015_1767990091990.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_008-015_1767990091990.jpg"
+            },
+            {
+              "model": "015-025",
+              "filename": "ELGEN_GEN_015-025.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_015-025.jpg"
+            },
+            {
+              "model": "025-050",
+              "filename": "ELGEN_GEN_025-050.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_025-050.jpg"
+            },
+            {
+              "model": "100-200",
+              "filename": "ELGEN_GEN_100-200.jpg",
+              "url": "/equipment_photos/ELGEN_GEN_100-200.jpg"
+            }
+          ]
+        },
+        {
+          "make": "LITE",
+          "models": [
+            {
+              "model": "2 LIGHT",
+              "filename": "ELGEN_LITE_2 LIGHT.jpg",
+              "url": "/equipment_photos/ELGEN_LITE_2 LIGHT.jpg"
+            },
+            {
+              "model": "4 LIGHT",
+              "filename": "ELGEN_LITE_4 LIGHT_1769115330664.jpg",
+              "url": "/equipment_photos/ELGEN_LITE_4 LIGHT_1769115330664.jpg",
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ELTOL",
+      "makes": [
+        {
+          "make": "TOOL",
+          "models": [
+            {
+              "model": "045-060",
+              "filename": "ELTOL_TOOL_045-060_1768335809690.jpg",
+              "url": "/equipment_photos/ELTOL_TOOL_045-060_1768335809690.jpg",
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            },
+            {
+              "model": "080-100",
+              "filename": "ELTOL_TOOL_080-100.jpg",
+              "url": "/equipment_photos/ELTOL_TOOL_080-100.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "FKLFT",
+      "makes": [
+        {
+          "make": "FLT",
+          "models": [
+            {
+              "model": "010-040",
+              "filename": "FKLFT_FLT_010-040.jpg",
+              "url": "/equipment_photos/FKLFT_FLT_010-040.jpg",
+              "isClassThumbnail": true
+            },
+            {
+              "model": "040-060",
+              "filename": "FKLFT_FLT_040-060_1768234079335.jpg",
+              "url": "/equipment_photos/FKLFT_FLT_040-060_1768234079335.jpg"
+            },
+            {
+              "model": "120-160",
+              "filename": "FKLFT_FLT_120-160.jpg",
+              "url": "/equipment_photos/FKLFT_FLT_120-160.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "GRADR",
+      "makes": [
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "120H",
+              "filename": "GRADR_CAT_120H_1769636435937.jpg",
+              "url": "/equipment_photos/GRADR_CAT_120H_1769636435937.jpg"
+            },
+            {
+              "model": "3265",
+              "filename": "GRADR_CAT_3265_1769026734085.jpg",
+              "url": "/equipment_photos/GRADR_CAT_3265_1769026734085.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "KOMA",
+          "models": [
+            {
+              "model": "9000",
+              "filename": "GRADR_KOMA_9000.jpg",
+              "url": "/equipment_photos/GRADR_KOMA_9000.jpg",
+              "isCategoryThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "HAMMR",
+      "makes": [
+        {
+          "make": "ATCO",
+          "models": [
+            {
+              "model": "SB552",
+              "filename": "HAMMR_ATCO_SB552.jpg",
+              "url": "/equipment_photos/HAMMR_ATCO_SB552.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "BKRT",
+          "models": [
+            {
+              "model": "BX10",
+              "filename": "HAMMR_BKRT_BX10.jpg",
+              "url": "/equipment_photos/HAMMR_BKRT_BX10.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "HCECL",
+      "makes": [
+        {
+          "make": "BCAT",
+          "models": [
+            {
+              "model": "E50",
+              "filename": "HCECL_BCAT_E50_1769323500897.jpg",
+              "url": "/equipment_photos/HCECL_BCAT_E50_1769323500897.jpg"
+            }
+          ]
+        },
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "0270",
+              "filename": "HCECL_CAT_0270.jpg",
+              "url": "/equipment_photos/HCECL_CAT_0270.jpg"
+            },
+            {
+              "model": "0321R",
+              "filename": "HCECL_CAT_0321R.jpg",
+              "url": "/equipment_photos/HCECL_CAT_0321R.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            },
+            {
+              "model": "0330",
+              "filename": "HCECL_CAT_0330.jpg",
+              "url": "/equipment_photos/HCECL_CAT_0330.jpg"
+            },
+            {
+              "model": "303E2CR",
+              "filename": "HCECL_CAT_303E2CR.jpg",
+              "url": "/equipment_photos/HCECL_CAT_303E2CR.jpg"
+            },
+            {
+              "model": "30550",
+              "filename": "HCECL_CAT_30550.jpg",
+              "url": "/equipment_photos/HCECL_CAT_30550.jpg"
+            },
+            {
+              "model": "305CR",
+              "filename": "HCECL_CAT_305CR_1775585328410.jpg",
+              "url": "/equipment_photos/HCECL_CAT_305CR_1775585328410.jpg"
+            },
+            {
+              "model": "308CR",
+              "filename": "HCECL_CAT_308CR.jpg",
+              "url": "/equipment_photos/HCECL_CAT_308CR.jpg"
+            },
+            {
+              "model": "308CRT",
+              "filename": "HCECL_CAT_308CRT_1772061619718.jpg",
+              "url": "/equipment_photos/HCECL_CAT_308CRT_1772061619718.jpg"
+            },
+            {
+              "model": "315",
+              "filename": "HCECL_CAT_315_1775584946654.jpg",
+              "url": "/equipment_photos/HCECL_CAT_315_1775584946654.jpg"
+            },
+            {
+              "model": "329ELR",
+              "filename": "HCECL_CAT_329ELR_1769026494118.jpg",
+              "url": "/equipment_photos/HCECL_CAT_329ELR_1769026494118.jpg"
+            },
+            {
+              "model": "336-07",
+              "filename": "HCECL_CAT_336-07_1769028873323.jpg",
+              "url": "/equipment_photos/HCECL_CAT_336-07_1769028873323.jpg"
+            },
+            {
+              "model": "336FL",
+              "filename": "HCECL_CAT_336FL.jpg",
+              "url": "/equipment_photos/HCECL_CAT_336FL.jpg"
+            }
+          ]
+        },
+        {
+          "make": "DEER",
+          "models": [
+            {
+              "model": "120D",
+              "filename": "HCECL_DEER_120D.jpg",
+              "url": "/equipment_photos/HCECL_DEER_120D.jpg"
+            },
+            {
+              "model": "50G",
+              "filename": "HCECL_DEER_50G_1769324408592.jpg",
+              "url": "/equipment_photos/HCECL_DEER_50G_1769324408592.jpg"
+            },
+            {
+              "model": "60G",
+              "filename": "HCECL_DEER_60G_1779729391119.jpg",
+              "url": "/equipment_photos/HCECL_DEER_60G_1779729391119.jpg"
+            },
+            {
+              "model": "85P",
+              "filename": "HCECL_DEER_85P_1769027960179.jpg",
+              "url": "/equipment_photos/HCECL_DEER_85P_1769027960179.jpg"
+            }
+          ]
+        },
+        {
+          "make": "DOSN",
+          "models": [
+            {
+              "model": "D225LC",
+              "filename": "HCECL_DOSN_D225LC.jpg",
+              "url": "/equipment_photos/HCECL_DOSN_D225LC.jpg"
+            }
+          ]
+        },
+        {
+          "make": "HIT",
+          "models": [
+            {
+              "model": "245USLC",
+              "filename": "HCECL_HIT_245USLC.jpg",
+              "url": "/equipment_photos/HCECL_HIT_245USLC.jpg"
+            }
+          ]
+        },
+        {
+          "make": "KOBL",
+          "models": [
+            {
+              "model": "140SR",
+              "filename": "HCECL_KOBL_140SR_1768320812214.jpg",
+              "url": "/equipment_photos/HCECL_KOBL_140SR_1768320812214.jpg"
+            },
+            {
+              "model": "210LC",
+              "filename": "HCECL_KOBL_210LC_1768336237375.jpg",
+              "url": "/equipment_photos/HCECL_KOBL_210LC_1768336237375.jpg"
+            }
+          ]
+        },
+        {
+          "make": "L-B",
+          "models": [
+            {
+              "model": "4300Q",
+              "filename": "HCECL_L-B_4300Q_1767734447099.jpg",
+              "url": "/equipment_photos/HCECL_L-B_4300Q_1767734447099.jpg"
+            },
+            {
+              "model": "80X3",
+              "filename": "HCECL_L-B_80X3_1779729287447.jpg",
+              "url": "/equipment_photos/HCECL_L-B_80X3_1779729287447.jpg"
+            }
+          ]
+        },
+        {
+          "make": "NHND",
+          "models": [
+            {
+              "model": "E57C",
+              "filename": "HCECL_NHND_E57C.jpg",
+              "url": "/equipment_photos/HCECL_NHND_E57C.jpg"
+            }
+          ]
+        },
+        {
+          "make": "TAKU",
+          "models": [
+            {
+              "model": "TB2150",
+              "filename": "HCECL_TAKU_TB2150_1781021562635.jpg",
+              "url": "/equipment_photos/HCECL_TAKU_TB2150_1781021562635.jpg"
+            },
+            {
+              "model": "TB240",
+              "filename": "HCECL_TAKU_TB240.jpg",
+              "url": "/equipment_photos/HCECL_TAKU_TB240.jpg"
+            }
+          ]
+        },
+        {
+          "make": "VLVO",
+          "models": [
+            {
+              "model": "ECR58",
+              "filename": "HCECL_VLVO_ECR58.jpg",
+              "url": "/equipment_photos/HCECL_VLVO_ECR58.jpg"
+            }
+          ]
+        },
+        {
+          "make": "YNMR",
+          "models": [
+            {
+              "model": "S100",
+              "filename": "HCECL_YNMR_S100_1768335337414.jpg",
+              "url": "/equipment_photos/HCECL_YNMR_S100_1768335337414.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "HCESP",
+      "makes": [
+        {
+          "make": "KASR",
+          "models": [
+            {
+              "model": "S2WO",
+              "filename": "HCESP_KASR_S2WO_1769028325305.jpg",
+              "url": "/equipment_photos/HCESP_KASR_S2WO_1769028325305.jpg"
+            }
+          ]
+        },
+        {
+          "make": "L-B",
+          "models": [
+            {
+              "model": "8090B",
+              "filename": "HCESP_L-B_8090B.jpg",
+              "url": "/equipment_photos/HCESP_L-B_8090B.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "HYLFT",
+      "makes": [
+        {
+          "make": "BOOM",
+          "models": [
+            {
+              "model": "50-74",
+              "filename": "HYLFT_BOOM_50-74_1769027137155.jpg",
+              "url": "/equipment_photos/HYLFT_BOOM_50-74_1769027137155.jpg"
+            }
+          ]
+        },
+        {
+          "make": "SCIS",
+          "models": [
+            {
+              "model": "00-20",
+              "filename": "HYLFT_SCIS_00-20.jpg",
+              "url": "/equipment_photos/HYLFT_SCIS_00-20.jpg"
+            },
+            {
+              "model": "21-30",
+              "filename": "HYLFT_SCIS_21-30.jpg",
+              "url": "/equipment_photos/HYLFT_SCIS_21-30.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "LDRCL",
+      "makes": [
+        {
+          "make": "BCAT",
+          "models": [
+            {
+              "model": "T200",
+              "filename": "LDRCL_BCAT_T200.jpg",
+              "url": "/equipment_photos/LDRCL_BCAT_T200.jpg"
+            },
+            {
+              "model": "T770",
+              "filename": "LDRCL_BCAT_T770.jpg",
+              "url": "/equipment_photos/LDRCL_BCAT_T770.jpg"
+            }
+          ]
+        },
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "2159",
+              "filename": "LDRCL_CAT_2159.jpg",
+              "url": "/equipment_photos/LDRCL_CAT_2159.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "TAKU",
+          "models": [
+            {
+              "model": "TL230",
+              "filename": "LDRCL_TAKU_TL230.jpg",
+              "url": "/equipment_photos/LDRCL_TAKU_TL230.jpg"
+            },
+            {
+              "model": "TL6CR",
+              "filename": "LDRCL_TAKU_TL6CR_1767976412260.jpg",
+              "url": "/equipment_photos/LDRCL_TAKU_TL6CR_1767976412260.jpg",
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "LDRRT",
+      "makes": [
+        {
+          "make": "CASE",
+          "models": [
+            {
+              "model": "580SM",
+              "filename": "LDRRT_CASE_580SM_1769635289239.jpg",
+              "url": "/equipment_photos/LDRRT_CASE_580SM_1769635289239.jpg"
+            },
+            {
+              "model": "580SNA",
+              "filename": "LDRRT_CASE_580SNA.jpg",
+              "url": "/equipment_photos/LDRRT_CASE_580SNA.jpg"
+            },
+            {
+              "model": "590SN",
+              "filename": "LDRRT_CASE_590SN.jpg",
+              "url": "/equipment_photos/LDRRT_CASE_590SN.jpg"
+            },
+            {
+              "model": "621B",
+              "filename": "LDRRT_CASE_621B.jpg",
+              "url": "/equipment_photos/LDRRT_CASE_621B.jpg"
+            },
+            {
+              "model": "821G",
+              "filename": "LDRRT_CASE_821G_1769026260844.jpg",
+              "url": "/equipment_photos/LDRRT_CASE_821G_1769026260844.jpg",
+              "isMakeThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "1861C",
+              "filename": "LDRRT_CAT_1861C.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_1861C.jpg",
+              "isClassThumbnail": true
+            },
+            {
+              "model": "1861N",
+              "filename": "LDRRT_CAT_1861N_1768320452377.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_1861N_1768320452377.jpg"
+            },
+            {
+              "model": "1861N2",
+              "filename": "LDRRT_CAT_1861N2_1772661496066.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_1861N2_1772661496066.jpg"
+            },
+            {
+              "model": "1868",
+              "filename": "LDRRT_CAT_1868.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_1868.jpg"
+            },
+            {
+              "model": "2310M",
+              "filename": "LDRRT_CAT_2310M.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_2310M.jpg"
+            },
+            {
+              "model": "420FB",
+              "filename": "LDRRT_CAT_420FB_1769115508091.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_420FB_1769115508091.jpg"
+            },
+            {
+              "model": "950GC",
+              "filename": "LDRRT_CAT_950GC_1781021884986.jpg",
+              "url": "/equipment_photos/LDRRT_CAT_950GC_1781021884986.jpg"
+            }
+          ]
+        },
+        {
+          "make": "DEER",
+          "models": [
+            {
+              "model": "210L",
+              "filename": "LDRRT_DEER_210L.jpg",
+              "url": "/equipment_photos/LDRRT_DEER_210L.jpg"
+            },
+            {
+              "model": "210P",
+              "filename": "LDRRT_DEER_210P.jpg",
+              "url": "/equipment_photos/LDRRT_DEER_210P.jpg"
+            },
+            {
+              "model": "410J",
+              "filename": "LDRRT_DEER_410J.jpg",
+              "url": "/equipment_photos/LDRRT_DEER_410J.jpg"
+            },
+            {
+              "model": "410L",
+              "filename": "LDRRT_DEER_410L.jpg",
+              "url": "/equipment_photos/LDRRT_DEER_410L.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "NONOP",
+      "makes": [
+        {
+          "make": "MISC",
+          "models": [
+            {
+              "model": "0150",
+              "filename": "NONOP_MISC_0150.jpg",
+              "url": "/equipment_photos/NONOP_MISC_0150.jpg"
+            },
+            {
+              "model": "0210",
+              "filename": "NONOP_MISC_0210.jpg",
+              "url": "/equipment_photos/NONOP_MISC_0210.jpg"
+            },
+            {
+              "model": "0220",
+              "filename": "NONOP_MISC_0220.jpg",
+              "url": "/equipment_photos/NONOP_MISC_0220.jpg"
+            },
+            {
+              "model": "0230",
+              "filename": "NONOP_MISC_0230_1767379045479.jpg",
+              "url": "/equipment_photos/NONOP_MISC_0230_1767379045479.jpg"
+            }
+          ]
+        },
+        {
+          "make": "SSFW",
+          "models": [
+            {
+              "model": "0420",
+              "filename": "NONOP_SSFW_0420_1767903930744.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0420_1767903930744.jpg"
+            },
+            {
+              "model": "0440",
+              "filename": "NONOP_SSFW_0440_1769636096294.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0440_1769636096294.jpg"
+            },
+            {
+              "model": "0560",
+              "filename": "NONOP_SSFW_0560.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0560.jpg"
+            },
+            {
+              "model": "0605",
+              "filename": "NONOP_SSFW_0605_1767399134519.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0605_1767399134519.jpg"
+            },
+            {
+              "model": "0610",
+              "filename": "NONOP_SSFW_0610_1767399073561.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0610_1767399073561.jpg"
+            },
+            {
+              "model": "0615",
+              "filename": "NONOP_SSFW_0615_1767407652625.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0615_1767407652625.jpg"
+            },
+            {
+              "model": "0620",
+              "filename": "NONOP_SSFW_0620_1767379285709.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0620_1767379285709.jpg"
+            },
+            {
+              "model": "0640",
+              "filename": "NONOP_SSFW_0640_1767379205176.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0640_1767379205176.jpg"
+            },
+            {
+              "model": "0650",
+              "filename": "NONOP_SSFW_0650_1767407770828.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0650_1767407770828.jpg"
+            },
+            {
+              "model": "0655",
+              "filename": "NONOP_SSFW_0655_1768335980995.jpg",
+              "url": "/equipment_photos/NONOP_SSFW_0655_1768335980995.jpg"
+            }
+          ]
+        },
+        {
+          "make": "TRAF",
+          "models": [
+            {
+              "model": "0810",
+              "filename": "NONOP_TRAF_0810_1767391208418.jpg",
+              "url": "/equipment_photos/NONOP_TRAF_0810_1767391208418.jpg",
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            },
+            {
+              "model": "0820",
+              "filename": "NONOP_TRAF_0820.jpg",
+              "url": "/equipment_photos/NONOP_TRAF_0820.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "PUMWA",
+      "makes": [
+        {
+          "make": "APMP",
+          "models": [
+            {
+              "model": "000-010",
+              "filename": "PUMWA_APMP_000-010_1769635382606.jpg",
+              "url": "/equipment_photos/PUMWA_APMP_000-010_1769635382606.jpg"
+            },
+            {
+              "model": "010-020",
+              "filename": "PUMWA_APMP_010-020.jpg",
+              "url": "/equipment_photos/PUMWA_APMP_010-020.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            },
+            {
+              "model": "050-125",
+              "filename": "PUMWA_APMP_050-125.jpg",
+              "url": "/equipment_photos/PUMWA_APMP_050-125.jpg"
+            },
+            {
+              "model": "125-250",
+              "filename": "PUMWA_APMP_125-250_1769029383323.jpg",
+              "url": "/equipment_photos/PUMWA_APMP_125-250_1769029383323.jpg"
+            }
+          ]
+        },
+        {
+          "make": "INHS",
+          "models": [
+            {
+              "model": "0-2.5",
+              "filename": "PUMWA_INHS_0-2.5.jpg",
+              "url": "/equipment_photos/PUMWA_INHS_0-2.5.jpg"
+            },
+            {
+              "model": "2.5-3.5",
+              "filename": "PUMWA_INHS_2.5-3.5.jpg",
+              "url": "/equipment_photos/PUMWA_INHS_2.5-3.5.jpg",
+              "isMakeThumbnail": true
+            },
+            {
+              "model": "4-6",
+              "filename": "PUMWA_INHS_4-6.jpg",
+              "url": "/equipment_photos/PUMWA_INHS_4-6.jpg"
+            }
+          ]
+        },
+        {
+          "make": "OUHS",
+          "models": [
+            {
+              "model": "0-2.5",
+              "filename": "PUMWA_OUHS_0-2.5_1769634798489.jpg",
+              "url": "/equipment_photos/PUMWA_OUHS_0-2.5_1769634798489.jpg"
+            },
+            {
+              "model": "2.5-3.5",
+              "filename": "PUMWA_OUHS_2.5-3.5.jpg",
+              "url": "/equipment_photos/PUMWA_OUHS_2.5-3.5.jpg"
+            },
+            {
+              "model": "4-6",
+              "filename": "PUMWA_OUHS_4-6.jpg",
+              "url": "/equipment_photos/PUMWA_OUHS_4-6.jpg",
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ROTAM",
+      "makes": [
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "825H",
+              "filename": "ROTAM_CAT_825H.jpg",
+              "url": "/equipment_photos/ROTAM_CAT_825H.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ROVIB",
+      "makes": [
+        {
+          "make": "BMAG",
+          "models": [
+            {
+              "model": "1350",
+              "filename": "ROVIB_BMAG_1350_1776016079680.jpg",
+              "url": "/equipment_photos/ROVIB_BMAG_1350_1776016079680.jpg"
+            }
+          ]
+        },
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "8031C",
+              "filename": "ROVIB_CAT_8031C_1769634267670.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_8031C_1769634267670.jpg"
+            },
+            {
+              "model": "CB10",
+              "filename": "ROVIB_CAT_CB10_1767988612062.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CB10_1767988612062.jpg"
+            },
+            {
+              "model": "CB214E",
+              "filename": "ROVIB_CAT_CB214E_1781021246630.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CB214E_1781021246630.jpg"
+            },
+            {
+              "model": "CB2.7",
+              "filename": "ROVIB_CAT_CB2.7_1772061551193.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CB2.7_1772061551193.jpg"
+            },
+            {
+              "model": "CB334D",
+              "filename": "ROVIB_CAT_CB334D.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CB334D.jpg"
+            },
+            {
+              "model": "CB34B",
+              "filename": "ROVIB_CAT_CB34B_1767976585443.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CB34B_1767976585443.jpg"
+            },
+            {
+              "model": "CP56B",
+              "filename": "ROVIB_CAT_CP56B.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CP56B.jpg"
+            },
+            {
+              "model": "CS563D",
+              "filename": "ROVIB_CAT_CS563D_1769029174136.jpg",
+              "url": "/equipment_photos/ROVIB_CAT_CS563D_1769029174136.jpg",
+              "isCategoryThumbnail": true,
+              "isMakeThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "HAMM",
+          "models": [
+            {
+              "model": "DH12",
+              "filename": "ROVIB_HAMM_DH12_1776015663979.jpg",
+              "url": "/equipment_photos/ROVIB_HAMM_DH12_1776015663979.jpg"
+            }
+          ]
+        },
+        {
+          "make": "I-R",
+          "models": [
+            {
+              "model": "3572",
+              "filename": "ROVIB_I-R_3572.jpg",
+              "url": "/equipment_photos/ROVIB_I-R_3572.jpg"
+            },
+            {
+              "model": "DD-24",
+              "filename": "ROVIB_I-R_DD-24_1775584979496.jpg",
+              "url": "/equipment_photos/ROVIB_I-R_DD-24_1775584979496.jpg"
+            }
+          ]
+        },
+        {
+          "make": "SAKI",
+          "models": [
+            {
+              "model": "SW800",
+              "filename": "ROVIB_SAKI_SW800_1769027389841.jpg",
+              "url": "/equipment_photos/ROVIB_SAKI_SW800_1769027389841.jpg"
+            }
+          ]
+        },
+        {
+          "make": "WACK",
+          "models": [
+            {
+              "model": "RD12",
+              "filename": "ROVIB_WACK_RD12.jpg",
+              "url": "/equipment_photos/ROVIB_WACK_RD12.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "SAWCO",
+      "makes": [
+        {
+          "make": "ABOP",
+          "models": [
+            {
+              "model": "0-10",
+              "filename": "SAWCO_ABOP_0-10.jpg",
+              "url": "/equipment_photos/SAWCO_ABOP_0-10.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "ABSK",
+          "models": [
+            {
+              "model": "100LF-INDE",
+              "filename": "SAWCO_ABSK_100LF-INDE.jpg",
+              "url": "/equipment_photos/SAWCO_ABSK_100LF-INDE.jpg"
+            },
+            {
+              "model": "LF-INDE",
+              "filename": "SAWCO_ABSK_LF-INDE.jpg",
+              "url": "/equipment_photos/SAWCO_ABSK_LF-INDE.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "S&CCL",
+      "makes": [
+        {
+          "make": "L-B",
+          "models": [
+            {
+              "model": "5124",
+              "filename": "S&CCL_L-B_5124.jpg",
+              "url": "/equipment_photos/S&CCL_L-B_5124.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "LIEB",
+          "models": [
+            {
+              "model": "LR1160",
+              "filename": "S&CCL_LIEB_LR1160_1768336373936.jpg",
+              "url": "/equipment_photos/S&CCL_LIEB_LR1160_1768336373936.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "SCRSP",
+      "makes": [
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "637GP",
+              "filename": "SCRSP_CAT_637GP.jpg",
+              "url": "/equipment_photos/SCRSP_CAT_637GP.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRACC",
+      "makes": [
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "D5HXL2",
+              "filename": "TRACC_CAT_D5HXL2.jpg",
+              "url": "/equipment_photos/TRACC_CAT_D5HXL2.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRACS",
+      "makes": [
+        {
+          "make": "<50",
+          "models": [
+            {
+              "model": "A",
+              "filename": "TRACS_<50_A.jpg",
+              "url": "/equipment_photos/TRACS_<50_A.jpg"
+            }
+          ]
+        },
+        {
+          "make": ">50",
+          "models": [
+            {
+              "model": "A",
+              "filename": "TRACS_>50_A.jpg",
+              "url": "/equipment_photos/TRACS_>50_A.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "CAT",
+          "models": [
+            {
+              "model": "246D",
+              "filename": "TRACS_CAT_246D.jpg",
+              "url": "/equipment_photos/TRACS_CAT_246D.jpg"
+            },
+            {
+              "model": "262D",
+              "filename": "TRACS_CAT_262D_1776015981457.jpg",
+              "url": "/equipment_photos/TRACS_CAT_262D_1776015981457.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRAFA",
+      "makes": [
+        {
+          "make": "CMSN",
+          "models": [
+            {
+              "model": "SOL2",
+              "filename": "TRAFA_CMSN_SOL2_1769027906642.jpg",
+              "url": "/equipment_photos/TRAFA_CMSN_SOL2_1769027906642.jpg"
+            }
+          ]
+        },
+        {
+          "make": "FLAS",
+          "models": [
+            {
+              "model": "TM",
+              "filename": "TRAFA_FLAS_TM.jpg",
+              "url": "/equipment_photos/TRAFA_FLAS_TM.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRAFC",
+      "makes": [
+        {
+          "make": "1BAR",
+          "models": [
+            {
+              "model": "A1",
+              "filename": "TRAFC_1BAR_A1_1767391278394.jpg",
+              "url": "/equipment_photos/TRAFC_1BAR_A1_1767391278394.jpg"
+            },
+            {
+              "model": "A2",
+              "filename": "TRAFC_1BAR_A2.jpg",
+              "url": "/equipment_photos/TRAFC_1BAR_A2.jpg"
+            },
+            {
+              "model": "B3",
+              "filename": "TRAFC_1BAR_B3.jpg",
+              "url": "/equipment_photos/TRAFC_1BAR_B3.jpg"
+            }
+          ]
+        },
+        {
+          "make": "2TC",
+          "models": [
+            {
+              "model": "A100",
+              "filename": "TRAFC_2TC_A100.jpg",
+              "url": "/equipment_photos/TRAFC_2TC_A100.jpg"
+            },
+            {
+              "model": "B100",
+              "filename": "TRAFC_2TC_B100.jpg",
+              "url": "/equipment_photos/TRAFC_2TC_B100.jpg"
+            },
+            {
+              "model": "D100",
+              "filename": "TRAFC_2TC_D100.jpg",
+              "url": "/equipment_photos/TRAFC_2TC_D100.jpg"
+            }
+          ]
+        },
+        {
+          "make": "3DEL",
+          "models": [
+            {
+              "model": "100",
+              "filename": "TRAFC_3DEL_100.jpg",
+              "url": "/equipment_photos/TRAFC_3DEL_100.jpg"
+            }
+          ]
+        },
+        {
+          "make": "6FSS",
+          "models": [
+            {
+              "model": "EACH",
+              "filename": "TRAFC_6FSS_EACH_1768335221130.jpg",
+              "url": "/equipment_photos/TRAFC_6FSS_EACH_1768335221130.jpg"
+            }
+          ]
+        },
+        {
+          "make": "7DDR",
+          "models": [
+            {
+              "model": "100",
+              "filename": "TRAFC_7DDR_100_1769027315752.jpg",
+              "url": "/equipment_photos/TRAFC_7DDR_100_1769027315752.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRAIL",
+      "makes": [
+        {
+          "make": "LB-A",
+          "models": [
+            {
+              "model": "100",
+              "filename": "TRAIL_LB-A_100_1768336510782.jpg",
+              "url": "/equipment_photos/TRAIL_LB-A_100_1768336510782.jpg"
+            },
+            {
+              "model": "200",
+              "filename": "TRAIL_LB-A_200_1767988781430.jpg",
+              "url": "/equipment_photos/TRAIL_LB-A_200_1767988781430.jpg",
+              "isClassThumbnail": true
+            }
+          ]
+        },
+        {
+          "make": "LB-B",
+          "models": [
+            {
+              "model": "300",
+              "filename": "TRAIL_LB-B_300_1767813833939.jpg",
+              "url": "/equipment_photos/TRAIL_LB-B_300_1767813833939.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRAIT",
+      "makes": [
+        {
+          "make": "TB-2",
+          "models": [
+            {
+              "model": "08-10",
+              "filename": "TRAIT_TB-2_08-10.jpg",
+              "url": "/equipment_photos/TRAIT_TB-2_08-10.jpg"
+            },
+            {
+              "model": "22-25",
+              "filename": "TRAIT_TB-2_22-25.jpg",
+              "url": "/equipment_photos/TRAIT_TB-2_22-25.jpg"
+            }
+          ]
+        },
+        {
+          "make": "TB-3",
+          "models": [
+            {
+              "model": "08-10",
+              "filename": "TRAIT_TB-3_08-10_1772661375385.jpg",
+              "url": "/equipment_photos/TRAIT_TB-3_08-10_1772661375385.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRUCK",
+      "makes": [
+        {
+          "make": "T&TT",
+          "models": [
+            {
+              "model": "00-06",
+              "filename": "TRUCK_T&TT_00-06.jpg",
+              "url": "/equipment_photos/TRUCK_T&TT_00-06.jpg"
+            },
+            {
+              "model": "06-12",
+              "filename": "TRUCK_T&TT_06-12_1767295847148.jpg",
+              "url": "/equipment_photos/TRUCK_T&TT_06-12_1767295847148.jpg"
+            },
+            {
+              "model": "12-20",
+              "filename": "TRUCK_T&TT_12-20.jpg",
+              "url": "/equipment_photos/TRUCK_T&TT_12-20.jpg"
+            },
+            {
+              "model": "20-28",
+              "filename": "TRUCK_T&TT_20-28_1767380332040.jpg",
+              "url": "/equipment_photos/TRUCK_T&TT_20-28_1767380332040.jpg"
+            },
+            {
+              "model": "28-36",
+              "filename": "TRUCK_T&TT_28-36_1767379793593.jpg",
+              "url": "/equipment_photos/TRUCK_T&TT_28-36_1767379793593.jpg",
+              "isClassThumbnail": true,
+              "isMakeThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "TRUON",
+      "makes": [
+        {
+          "make": "TRUN",
+          "models": [
+            {
+              "model": "2AXL",
+              "filename": "TRUON_TRUN_2AXL.jpg",
+              "url": "/equipment_photos/TRUON_TRUN_2AXL.jpg"
+            },
+            {
+              "model": "3AXL",
+              "filename": "TRUON_TRUN_3AXL.jpg",
+              "url": "/equipment_photos/TRUON_TRUN_3AXL.jpg"
+            },
+            {
+              "model": "4AXL",
+              "filename": "TRUON_TRUN_4AXL.jpg",
+              "url": "/equipment_photos/TRUON_TRUN_4AXL.jpg"
+            },
+            {
+              "model": "5AXL",
+              "filename": "TRUON_TRUN_5AXL.jpg",
+              "url": "/equipment_photos/TRUON_TRUN_5AXL.jpg",
+              "isCategoryThumbnail": true,
+              "isClassThumbnail": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "WELD",
+      "makes": [
+        {
+          "make": "AWM",
+          "models": [
+            {
+              "model": "0-250",
+              "filename": "WELD_AWM_0-250.jpg",
+              "url": "/equipment_photos/WELD_AWM_0-250.jpg",
+              "isClassThumbnail": true
+            },
+            {
+              "model": "250-500",
+              "filename": "WELD_AWM_250-500_1767990131196.jpg",
+              "url": "/equipment_photos/WELD_AWM_250-500_1767990131196.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
