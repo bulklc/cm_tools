@@ -1,7 +1,7 @@
 # CM Tools — Equipment Overview
 
 A **static, front-end-only** website that hosts the **CM Tools → Equipment Overview** page —
-browse equipment categories, classes, makes, models, rate history (charts), and photos.
+browse equipment categories, classes, makes, models, rate history (charts), photos, and other details.
 
 This is a read-only public site. There is no login, no backend, and no database. All
 equipment data is bundled as static JSON under [`public/equipment_data/`](public/equipment_data/)
