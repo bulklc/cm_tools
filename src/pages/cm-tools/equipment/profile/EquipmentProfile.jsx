@@ -212,7 +212,7 @@ function EquipmentProfile({
 
   // Get misc source document link
   const miscLink = dateInfo.find(
-    (info) => info.filename === "misc_curr"
+    (info) => info.filename === "misc_curr",
   )?.caltrans_link;
 
   // Determine rate unit based on class (NONOP and TRAFC use days, others use hours)
@@ -230,7 +230,7 @@ function EquipmentProfile({
 
       for (const cls of categoryData.classes) {
         const classEntry = equipmentPhotos.classes.find(
-          (c) => c.class === cls.CLASS
+          (c) => c.class === cls.CLASS,
         );
         if (!classEntry) continue;
 
@@ -257,7 +257,7 @@ function EquipmentProfile({
 
     if (level === "class" && equipment.classCode) {
       const classEntry = equipmentPhotos.classes.find(
-        (c) => c.class === equipment.classCode
+        (c) => c.class === equipment.classCode,
       );
       if (!classEntry) return null;
 
@@ -283,12 +283,12 @@ function EquipmentProfile({
 
     if (level === "make" && equipment.classCode && equipment.makeCode) {
       const classEntry = equipmentPhotos.classes.find(
-        (c) => c.class === equipment.classCode
+        (c) => c.class === equipment.classCode,
       );
       if (!classEntry) return null;
 
       const makeEntry = classEntry.makes.find(
-        (m) => m.make === equipment.makeCode
+        (m) => m.make === equipment.makeCode,
       );
       if (!makeEntry) return null;
 
@@ -359,7 +359,7 @@ function EquipmentProfile({
       {/* Section 3: Rental Rate Chart (Standard) or Combined Rate Info (Misc) */}
       <div className="equipment-profile-section chart-section">
         {hasRentalData &&
-          (isStandard ? (
+          (isStandard ?
             <SingleMetricChart
               data={equipment.rentalRate}
               title="Rental Rate"
@@ -370,20 +370,18 @@ function EquipmentProfile({
               dateInfo={dateInfo}
               modelCode={equipment.modelCode}
             />
-          ) : (
-            <MiscRateInfo
+          : <MiscRateInfo
               equipment={equipment}
               miscLink={miscLink}
               isDailyRate={isDailyRate}
               hasIdleData={hasIdleData}
               hasOvertimeData={hasOvertimeData}
-            />
-          ))}
+            />)}
       </div>
 
       {/* Section 4: Idle/Delay Rate Chart (Standard) or Date Info (Misc) */}
       <div className="equipment-profile-section chart-section">
-        {isStandard ? (
+        {isStandard ?
           hasIdleData && (
             <SingleMetricChart
               data={equipment.rwDelay}
@@ -395,14 +393,12 @@ function EquipmentProfile({
               modelCode={equipment.modelCode}
             />
           )
-        ) : (
-          <MiscDateInfo equipment={equipment} miscLink={miscLink} />
-        )}
+        : <MiscDateInfo equipment={equipment} miscLink={miscLink} />}
       </div>
 
       {/* Section 5: Overtime Rate Chart (Standard) or Remarks (Misc) */}
       <div className="equipment-profile-section chart-section">
-        {isStandard ? (
+        {isStandard ?
           hasOvertimeData && (
             <SingleMetricChart
               data={equipment.overtime}
@@ -414,9 +410,7 @@ function EquipmentProfile({
               modelCode={equipment.modelCode}
             />
           )
-        ) : (
-          <MiscRemarks equipment={equipment} miscLink={miscLink} />
-        )}
+        : <MiscRemarks equipment={equipment} miscLink={miscLink} />}
       </div>
 
       {/* Details Modal */}

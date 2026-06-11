@@ -45,7 +45,7 @@ function EquipmentOverview() {
     if (selectedEquipment) {
       // Find the category index for this class
       const catIndex = categories.findIndex((cat) =>
-        cat.classes.some((cls) => cls.CLASS === selectedEquipment.classCode)
+        cat.classes.some((cls) => cls.CLASS === selectedEquipment.classCode),
       );
       if (catIndex !== -1) {
         setActiveCategory(catIndex);
@@ -70,7 +70,7 @@ function EquipmentOverview() {
     if (selectedEquipment) {
       // Find the category index for this class
       const catIndex = categories.findIndex((cat) =>
-        cat.classes.some((cls) => cls.CLASS === selectedEquipment.classCode)
+        cat.classes.some((cls) => cls.CLASS === selectedEquipment.classCode),
       );
       if (catIndex !== -1) {
         setActiveCategory(catIndex);
@@ -99,7 +99,7 @@ function EquipmentOverview() {
     (classCode, makeCode, modelCode) => {
       if (!equipmentPhotos?.classes) return null;
       const classEntry = equipmentPhotos.classes.find(
-        (c) => c.class === classCode
+        (c) => c.class === classCode,
       );
       if (!classEntry) return null;
       const makeEntry = classEntry.makes.find((m) => m.make === makeCode);
@@ -121,12 +121,12 @@ function EquipmentOverview() {
         return `/equipment_photos/${matchingModel.filename}`;
       }
       const cleanModel =
-        typeof matchingModel === "string"
-          ? matchingModel.replace(/\*+$/, "")
-          : matchingModel.model;
+        typeof matchingModel === "string" ?
+          matchingModel.replace(/\*+$/, "")
+        : matchingModel.model;
       return `/equipment_photos/${classCode}_${makeCode}_${cleanModel}.jpg`;
     },
-    [equipmentPhotos]
+    [equipmentPhotos],
   );
 
   // Update selectedEquipment.photoUrl when equipmentPhotos changes
@@ -140,7 +140,7 @@ function EquipmentOverview() {
       const newPhotoUrl = getPhotoUrl(
         selectedEquipment.classCode,
         selectedEquipment.makeCode,
-        selectedEquipment.modelCode
+        selectedEquipment.modelCode,
       );
       if (newPhotoUrl !== selectedEquipment.photoUrl) {
         setSelectedEquipment((prev) => ({
@@ -158,7 +158,7 @@ function EquipmentOverview() {
       .then((data) => {
         // Sort categories alphabetically by abbreviation
         const sortedCategories = [...data].sort((a, b) =>
-          a.abbr.localeCompare(b.abbr)
+          a.abbr.localeCompare(b.abbr),
         );
         setCategories(sortedCategories);
       })
@@ -181,7 +181,7 @@ function EquipmentOverview() {
       .then((response) => response.json())
       .then((data) => setEquipmentPhotos(data))
       .catch((error) =>
-        console.error("Error loading equipment photos:", error)
+        console.error("Error loading equipment photos:", error),
       );
 
     // Load date info for source document links (static file)
@@ -199,9 +199,9 @@ function EquipmentOverview() {
     // Calculate which page this model will be on (for pagination)
     // We need to find the model's index within its make
     const modelPage =
-      model.modelIndexInMake !== undefined
-        ? Math.floor(model.modelIndexInMake / MODEL_PAGE_SIZE)
-        : 0;
+      model.modelIndexInMake !== undefined ?
+        Math.floor(model.modelIndexInMake / MODEL_PAGE_SIZE)
+      : 0;
 
     // Set target page before setting make, so sunburst knows which page to show
     setTargetModelPage(modelPage);
@@ -247,7 +247,7 @@ function EquipmentOverview() {
             }
             onCategorySelect={(category) =>
               setSelectedEquipment(
-                category ? { ...category, level: "category" } : null
+                category ? { ...category, level: "category" } : null,
               )
             }
             onClassSelect={(cls) =>
@@ -281,12 +281,14 @@ function EquipmentOverview() {
           equipmentPhotos={equipmentPhotos}
           categories={categories}
           categoryClassCodes={
-            selectedEquipment?.categoryIndex !== undefined &&
-            categories[selectedEquipment.categoryIndex]?.classes
-              ? categories[selectedEquipment.categoryIndex].classes.map(
-                  (cls) => cls.CLASS
-                )
-              : []
+            (
+              selectedEquipment?.categoryIndex !== undefined &&
+              categories[selectedEquipment.categoryIndex]?.classes
+            ) ?
+              categories[selectedEquipment.categoryIndex].classes.map(
+                (cls) => cls.CLASS,
+              )
+            : []
           }
         />
       </div>
